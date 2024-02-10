@@ -93,7 +93,7 @@ const TestmonialSection = () => {
           </div>
 
         </div>
-        <div className="swiper-pagination "></div>
+        <div class="swiper-pagination "></div>
       </div>
 
     </div>

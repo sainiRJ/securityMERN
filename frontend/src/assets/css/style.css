@@ -397,13 +397,13 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     bottom: 0;
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    
 }
 
 #hero h1 {
@@ -446,6 +446,7 @@ h6 {
     }
     #hero h1 {
         font-size: 28px;
+        color:#fff;
     }
     #hero h2 {
         font-size: 18px;
@@ -568,6 +569,7 @@ section {
 .clients .swiper-pagination {
     margin-top: 20px;
     position: relative;
+    
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet {
@@ -576,17 +578,21 @@ section {
     background-color: #fff;
     opacity: 1;
     border: 1px solid #e03a3c;
+    ;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
     background-color: #e03a3c;
+    
 }
 
 .clients .swiper-slide img {
     opacity: 0.5;
     transition: 0.3s;
     filter: grayscale(100);
+
 }
+
 
 .clients .swiper-slide img:hover {
     opacity: 1;

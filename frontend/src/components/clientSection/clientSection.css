@@ -1,0 +1,8 @@
+.swiper-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.swiper-slide{
+    box-sizing: border-box;
+    padding: 10px;
+}
